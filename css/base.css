@@ -1,5 +1,5 @@
 *{margin:0;padding: 0;}
-.wrap{width:1500px;margin-top: 19px;}
+.wrap{width:1366px;margin-top: 19px;}
 .nav { list-style: none; height: 50px; padding-left: 15px; padding-right: 15px; }
 .nav li { float: left; display: block; position: relative; z-index: 999;}
 .nav li a { display: block;  line-height: 50px; padding: 0px 12px; font: 13px/23px 'PingFang SC',Arial,'Microsoft YaHei',sans-serif;text-decoration: none;color: #222;}
