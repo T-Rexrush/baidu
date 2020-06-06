@@ -1,0 +1,70 @@
+*{margin:0;padding: 0;}
+.wrap{width:1500px;margin-top: 19px;}
+.nav { list-style: none; height: 50px; padding-left: 15px; padding-right: 15px; }
+.nav li { float: left; display: block; position: relative; z-index: 999;}
+.nav li a { display: block;  line-height: 50px; padding: 0px 12px; font: 13px/23px 'PingFang SC',Arial,'Microsoft YaHei',sans-serif;text-decoration: none;color: #222;}
+.nav li a:hover, .nav li a.hov {color: #315efb; }
+.nav ul { 
+    position: absolute; 
+    display: none; 
+    list-style: none;
+    background: #fff;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,.15);
+    -webkit-box-shadow: 0 2px 10px 0 rgba(0,0,0,.15);
+    -moz-box-shadow: 0 2px 10px 0 rgba(0,0,0,.15);
+    -o-box-shadow: 0 2px 10px 0 rgba(0,0,0,.15);
+    border-radius: 12px;
+    *border: 1px solid #d7d9e0;
+}
+.nav ul li { width: 74px; float: left; text-align: left; padding-left:10px;}
+.nav ul a { display: block; height: 20px; line-height: 20px; padding: 8px 5px; text-transform: uppercase; color: #797979; }
+.nav li .fight{color:red;margin-left: 650px;}
+.logo{height: 60%;position: relative;text-align: center;}
+.logo-img{width:270px;height: 129px;}
+.wrapper{width: 680px;margin: 0 auto;position: relative;}
+.search{
+    width: 512px;
+    height: 16px;
+    padding: 12px 16px;
+    font-size: 16px;
+    vertical-align: top;
+    box-shadow: none;
+    border-radius: 10px 0 0 10px;
+    border: 2px solid #c4c7ce;
+    background: #fff;
+    color: #222;
+    float: left;
+}
+.search:focus {
+    border-color: #4e6ef2;
+    outline: none;
+}
+.search-button{
+    cursor: pointer;
+    width: 108px;
+    height: 44px;
+    line-height: 45px;
+    background-color: #4e6ef2;
+    border-radius: 0 10px 10px 0;
+    font-size: 17px;
+    color: #fff;
+    box-shadow: none;
+    font-weight: 400;
+    border: none;
+    user-select: none;
+    white-space: pre;
+    align-items: flex-start;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+}
+.search-button:hover{background-color: #4662d9;outline: none;}
+.soutu-button {
+    position: absolute;
+    right: 150px;
+    top: 50%;
+    margin-top: 12px;
+    width: 25px;
+    background: #fff;
+}
+.iconfont{color:#315efb}
